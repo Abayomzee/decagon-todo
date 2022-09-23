@@ -1,11 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Notiflix from "notiflix";
+import { initStore } from "Service/localStore";
+
+// Styles
+import "Styles/Abstract/Variables.css";
+import "Styles/Abstract/Mixins.css";
+import "Styles/Abstract/Fonts.css";
+
+import "Styles/Base/Reset.css";
+import "Styles/Base/Typography.css";
+import "Styles/Base/Animation.css";
+import "Styles/Base/Utilities.css";
+
+import "Styles/Layouts/Center.css";
+import "Styles/Layouts/Flex.css";
+
+Notiflix.Notify.init({ position: "center-top" });
+initStore();
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>

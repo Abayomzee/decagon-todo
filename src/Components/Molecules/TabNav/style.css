@@ -1,0 +1,6 @@
+.tnv-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: auto;
+}

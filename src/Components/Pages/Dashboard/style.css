@@ -1,0 +1,25 @@
+.das-wrapper {
+  display: flex;
+}
+
+.das-main {
+  flex-grow: 1;
+  padding: 2rem 4rem;
+}
+
+.das-aside {
+  top: 8.4rem;
+  position: sticky;
+  flex-basis: 39.6rem;
+  flex-shrink: 0;
+  overflow-y: auto;
+  background-color: var(--color-white);
+  height: calc(100vh - 8.4rem);
+  padding: 4rem;
+}
+
+.das-dates-input {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-6);
+}

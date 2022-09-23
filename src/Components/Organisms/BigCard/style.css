@@ -1,0 +1,19 @@
+.bcd-wrapper {
+  background: var(--color-white);
+  border-radius: 16px;
+  padding: 2.5rem;
+
+  /* max-width: 80rem;
+  margin-inline: auto;
+  margin-top: 10rem; */
+}
+
+.bcd-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bcd-bottom {
+  padding-top: 3.3rem;
+}

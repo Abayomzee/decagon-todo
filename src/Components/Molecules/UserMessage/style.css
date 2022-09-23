@@ -1,0 +1,11 @@
+.usr-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.usr-image {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+.d-wrapper {
+  display: flex;
+}
+
+.d-side {
+  flex-basis: 9.4rem;
+}
+
+.d-body {
+  flex-grow: 1;
+  /* padding-bottom: 7rem; */
+}

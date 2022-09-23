@@ -1,0 +1,28 @@
+.si-wrapper {
+  background-color: var(--color-2);
+  border-radius: 0.7rem;
+  flex-basis: 29rem;
+  padding: 1.2rem 2rem;
+  gap: 1rem;
+}
+
+.si-input {
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  padding: 0.13rem 0;
+}
+
+.si-input::placeholder {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--color-primary);
+}
+
+.si-input:active,
+.si-input:focus {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,69 @@
+.cd-wrapper {
+  position: relative;
+}
+
+.btn-dropdown-toggle {
+  background: var(--color-6);
+  border: 0.1rem solid var(--color-secondary);
+  border-radius: 0.7rem;
+  padding: 1rem 0.9rem;
+
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  color: var(--color-9);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 11.2rem;
+}
+
+.cd-dropdown {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  width: 100%;
+  /* width: max-content; */
+  width: 11.2rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-10);
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.04);
+  border-radius: 1rem;
+  padding: 0.8rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cd-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cd-item-radio {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-11);
+  transition: 0.2s;
+}
+
+.cd-item-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: var(--color-9);
+  transition: 0.4s;
+}
+
+.cd-item.active .cd-item-radio {
+  border: 0.3rem solid var(--color-secondary);
+}
+
+.cd-item.active .cd-item-label {
+  color: var(--color-5);
+}

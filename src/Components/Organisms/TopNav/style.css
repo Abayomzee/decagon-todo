@@ -1,0 +1,13 @@
+.tn-wrapper {
+  background-color: var(--color-white);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.tn-container {
+  justify-content: space-between;
+}

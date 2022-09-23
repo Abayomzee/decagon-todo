@@ -1,0 +1,31 @@
+.sn-wrapper {
+  height: 100vh;
+  position: fixed;
+  background-color: var(--color-1);
+  padding: 2.5rem 2.2rem;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.sn-links {
+  margin-top: 13.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.9rem;
+  align-items: center;
+}
+
+.sn-links > * {
+  cursor: pointer;
+}
+
+.sn-links > * path {
+  transition: 0.4s;
+}
+
+.sn-links > *:not(:first-child):hover path {
+  fill: var(--color-primary);
+}

@@ -1,0 +1,26 @@
+.inpt-control {
+  background-color: var(--color-6);
+  border-radius: 0.7rem;
+  font-family: inherit;
+  padding: 1.1rem 1.2rem;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.inpt-control:active,
+.inpt-control:focus {
+  border: none;
+  outline: none;
+}
+
+.inpt-control::placeholder {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color: var(--color-9);
+}
+
+.inpt-control::-webkit-calendar-picker-indicator {
+  /* background: none; */
+}
